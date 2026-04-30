@@ -1,0 +1,46 @@
+.blink-red {
+    animation: blinker 1s linear infinite;
+}
+
+.title {
+    color: #1a4b8c;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid #ff8c42;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+
+
+@keyframes blinker {
+    50% {
+        opacity: 0.3;
+    }
+
+}
+
+.name {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.name.distant {
+    color: #d32f2f; 
+}
+
+.name.in-range {
+    color: #2e7d32; 
+}
+
+.isOk {
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.update_time {
+    color: #666;
+    font-size: 0.8rem;
+}

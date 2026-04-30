@@ -1,0 +1,85 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title {
+    color: #1a4b8c;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid #ff8c42;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+
+.scroll {
+    max-height: 500px; 
+    overflow-y: auto;
+}
+
+.student {
+    width: 100%;
+    border-collapse: collapse;
+    direction: rtl;
+    background-color: white;
+}
+
+.student thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #f8f9fa;
+}
+
+.student th {
+    padding: 12px 10px;
+    text-align: right;
+    font-size: 0.85rem;
+    color: #1a4b8c;
+    font-weight: 700;
+    border-bottom: 2px solid #e1e8ef;
+}
+
+.student td {
+    padding: 12px 10px;
+    font-size: 0.9rem;
+    color: #444;
+    border-bottom: 1px solid #f0f4f8;
+}
+
+
+.student tbody tr:hover {
+    background-color: rgba(26, 75, 140, 0.04);
+}
+
+.grade {
+    font-weight: 700;
+    color: #ff8c42;
+}
+
+.id {
+    color: #888;
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+.no_data {
+    padding: 30px !important;
+    text-align: center;
+    color: #999;
+    font-style: italic;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #e1e8ef;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
